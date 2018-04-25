@@ -1,0 +1,61 @@
+body{
+	animation: fondo 5s linear 0s infinite;	
+}
+
+.marciano{
+	animation: marciano 5s linear 0s infinite;
+	position: relative;
+}
+
+@keyframes marciano{
+	0%{
+		left: 0%;
+		top: 0px; 
+		width: 100px; 
+		height: 50px;
+	}
+	25%{
+		left: 80%;
+		top: 0px; 
+		width: 130px;
+		height: 65px;
+	}
+	50%{
+		left: 80%;
+		top:470px;
+		width: 200px;
+		height: 100px;
+	}
+	75%{
+		left: 0%; 
+		top: 470px;
+		width: 130px;
+		height: 65px;
+	}
+	100%{
+		left: 0%; 
+		top: 0px;
+		width: 100px;
+		height: 50px;}
+}
+
+@keyframes fondo{
+	0%{
+		background-color: #20F3EC;
+	}
+	20%{
+		background-color: #85DD0B;
+	}
+	40%{
+		background-color: #FF1A78;		
+	}
+	60%{
+		background-color: #B307E4;
+	}
+	80%{
+		background-color: #412BA1;
+	}
+	100%{
+		background-color: #20F3EC;
+	}
+}
